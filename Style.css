@@ -1,0 +1,113 @@
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.red {
+    border: 1px solid red;
+}
+
+.green {
+    border: 1px solid green;
+}
+
+.banner {
+    height: 865px;
+    width: 100%;
+    background-image: url('./Image/banner-mobile.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 40px;
+}
+
+.about-signin {
+    height: 79px;
+    width: 1350px;
+    text-align: right;
+
+}
+
+.signin,
+.about {
+    margin-top: 20px;
+    padding: 7px 15px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.about {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+
+.signin {
+    margin-right: 60px;
+    margin-left: 25px;
+    text-transform: uppercase;
+    border-radius: 20px;
+    border: 2px solid rgb(112, 199, 50);
+    color: rgb(112, 199, 50);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+
+.hapoerp {
+    background: url('./Image/hapoERP.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 40px;
+    height: 150px;
+}
+
+.text {
+    margin-top: 30px;
+    text-align: center;
+    font-size: larger;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btnstartnow {
+    text-align: center;
+    color: rgb(112, 199, 50);
+}
+
+.banner .btnstartnow button {
+    text-transform: uppercase;
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: 1px solid rgb(112, 199, 50);
+    margin-top: 40px;
+    color-scheme: rgb(112, 199, 50);
+    cursor: pointer;
+}
+
+.better-faster-together {
+    height: 50px;
+}
+
+.left,
+.middle,
+.right {
+    width: 33%;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+span {
+    display: block;
+    font-size: 20px;
+}
+
+.text span {
+    color: green;
+    font-size: 30px;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}

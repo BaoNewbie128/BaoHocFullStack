@@ -1,0 +1,94 @@
+body {
+	 margin: 0 !important;
+	 padding: 0 !important;
+}
+ .red {
+	 border: 1px solid red;
+}
+ .green {
+	 border: 1px solid green;
+}
+ .banner {
+	 height: 865px;
+	 width: 100%;
+	 background-image: url('./Image/banner-mobile.jpg');
+	 background-position: center;
+	 background-size: cover;
+	 background-repeat: no-repeat;
+	 padding: 40px;
+}
+ .banner .about-signin {
+	 height: 79px;
+	 width: 1350px;
+	 text-align: right;
+}
+ .banner .about-signin .signin, .banner .about-signin .about {
+	 margin-top: 20px;
+	 padding: 7px 15px;
+	 display: inline-block;
+	 text-decoration: none;
+}
+ .banner .about-signin .signin .signin, .banner .about-signin .about .signin {
+	 margin-right: 60px;
+	 margin-left: 25px;
+	 text-transform: uppercase;
+	 border-radius: 20px;
+	 border: 2px solid #70c732;
+	 color: #70c732;
+	 font-family: Arial, Helvetica, sans-serif;
+	 font-size: small;
+}
+ .banner .about-signin .signin .about, .banner .about-signin .about .about {
+	 font-family: Arial, Helvetica, sans-serif;
+	 font-size: small;
+}
+ .banner .hapoerp {
+	 background: url('./Image/hapoERP.png');
+	 background-position: center;
+	 background-repeat: no-repeat;
+	 margin-top: 40px;
+	 height: 150px;
+}
+ .banner .text {
+	 margin-top: 30px;
+	 text-align: center;
+	 font-size: larger;
+	 font-style: italic;
+	 font-family: Arial, Helvetica, sans-serif;
+}
+ .banner .text span {
+	 color: green;
+	 font-size: 30px;
+}
+ .banner .btnstartnow {
+	 text-align: center;
+	 color: #70c732;
+}
+ .banner .btnstartnow button {
+	 text-transform: uppercase;
+	 padding: 10px 15px;
+	 border-radius: 20px;
+	 border: 1px solid #70c732;
+	 margin-top: 40px;
+	 color-scheme: #70c732;
+	 cursor: pointer;
+}
+ .banner .better-faster-together {
+	 height: 50px;
+}
+ .banner .better-faster-together .left, .banner .better-faster-together .middle, .banner .better-faster-together .right {
+	 width: 33%;
+	 display: inline-block;
+	 text-align: center;
+	 margin-bottom: 40px;
+}
+ .banner .better-faster-together .left span, .banner .better-faster-together .middle span, .banner .better-faster-together .right span {
+	 display: block;
+	 font-size: 20px;
+}
+ .banner .better-faster-together img {
+	 width: 50px;
+	 height: 50px;
+	 text-align: center;
+}
+ 

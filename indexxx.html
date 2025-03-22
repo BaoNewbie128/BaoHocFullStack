@@ -1,0 +1,89 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Giả </title>
+
+    <style>
+        .Bangphu,
+        #mot,
+        #hai,
+        #ba,
+        #bon {
+            border: 2px solid red;
+            text-align: center;
+            border-style: calc();
+        }
+    </style>
+</head>
+
+<body>
+    <form action="daotao1.stu.edu.vn" method="post">
+        MSSV &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+        &nbsp;
+        <input type="text" name="MSSV" size="50" />
+        <br>
+        Họ tên sinh viên <input type="text" name="hoten" maxlength="15" size="30" />
+        <input type="submit" value="Đăng Nhập" />
+        <br>Mota;
+
+        <textarea name="" id="" required></textarea>
+        <br />
+        <th>Noi Sinh;</th>
+        <select name="noisinh" id="5" multiple>
+            <option value="0"> Chọn</option>
+            <option value="1"> TP HCMHCM</option>
+            <option value="22"> Hà Nội</option>
+        </select>
+        <br /> Địa Chỉ
+        <select name="diachi[]" id="">
+            <option value="0"> Chọn</option>
+            <option value="1"> TP HCMHCM</option>
+            <option value="22"> Hà Nội</option>
+        </select>
+
+        <table border="1">
+            <th> lam sao</th>
+            <tr>
+                <td>
+                    <input type="checkbox" name="hoc[]" /> Học
+                    <input type="checkbox" name=" dive[]" /> Đi về
+                    <input type="checkbox" name="ngutailop[]" /> Ngủ Tại Lớp
+                </td>
+
+            </tr>
+            <th align="left">Thông tin cá nhân </th>
+            <tr>
+                <td>
+                    <br />Mày muốn làm gì?
+
+                    <br />Chọn giới tính
+                    <input type="radio" value="radio" /> Gay
+                    <input type="radio" value="radio" /> Nam
+                    <input type="radio" value="radio" /> Nữ
+                </td>
+            </tr>
+        </table>
+
+        <br />
+        <input type="submit" value="Submit" />
+        <input type="reset" value="Reset" />
+        <input type="button" value="Say Hello" onclick="alert('Chào Bạn')" />
+        <br />Ảnh đại diện
+        <input type="file" accept="image/*" />
+        <br />Ngày sinh
+        <input type="date" name="" id="">
+    </form>
+    <table class="Bangphu">
+        <th colspan="5" style="text-align: center;"> Hello</th>
+        <tr id="mot">
+            <td id="ba">Cac cut me may di</td>
+        </tr>
+        <tr id="hai">
+            <td id="bon">Vai lozz cut cut cut </td>
+        </tr>
+    </table>
+</body>
+
+</html>
